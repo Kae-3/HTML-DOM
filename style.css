@@ -1,0 +1,48 @@
+
+#body {
+    font-family: Arial, sans-serif;
+    background-color: lightyellow;
+    text-align: center;
+    margin: 20px;
+}
+
+#zoo {
+    width: 350px;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+    border: 3px solid green;
+    border-radius: 10px;
+}
+
+.zone {
+    background-color: beige;
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+button {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgreen;
+}
+
+#zoo-status {
+    color: darkred;
+    font-size: 28px;
+    margin-top: 20px;
+}
+
+#zone\ 1,
+#zone\ 2,
+#zone\ 3 {
+    font-weight: bold;
+    color: black;
+}
+

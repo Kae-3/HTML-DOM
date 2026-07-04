@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Zoo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+
+    <h1>Welcome to the Zoo</h1>
+
+    <div id="zoo">
+        <div class="zone">
+            Zone 1:
+            <span id="zone1">Empty</span>
+        </div>
+
+        <div class="zone">
+            Zone 2:
+            <span id="zone2">Empty</span>
+        </div>
+
+        <div class="zone">
+            Zone 3:
+            <span id="zone3">Empty</span>
+        </div>
+    </div>
+
+    <br>
+
+    <button onclick="OpenZoo()">Open the Zoo!</button>
+
+    <h2 id="zoo-status"></h2>
+
+    <script>
+        function OpenZoo() {
+            document.getElementById("zone1").innerText = "Monkeys";
+            document.getElementById("zone2").innerText = "Lions";
+            document.getElementById("zone3").innerText = "Elephants";
+            document.getElementById("zoo-status").innerText = "The zoo is now open!";
+        }
+    </script>
+
+</body>
+</html>
+
